@@ -12,3 +12,7 @@ FROM debian:jessie
 #
 MAINTAINER Eric Mugerwa <dev@ericmugerwa.com>
 
+#
+# Define mountable directories.
+#
+VOLUME /srv/www
