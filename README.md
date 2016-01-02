@@ -11,7 +11,7 @@
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
 *Process*
-- Data volume: /srv/www/
+- Data (/srv/www/)
 
 ### Development
 
