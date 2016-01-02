@@ -32,3 +32,7 @@ RUN chown www-data:www-data /srv/www/
 #
 ENTRYPOINT /usr/bin/tail -f /dev/null
 
+#
+# Define default command.
+#
+CMD []
