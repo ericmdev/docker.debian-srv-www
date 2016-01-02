@@ -1,5 +1,7 @@
 ## Docker: Debian - SRV-WWW
 
+[![Build Status](https://travis-ci.org/ericmdev/docker.debian-php5-fpm.svg?branch=master)](https://travis-ci.org/ericmdev/docker.debian-php5-fpm)
+
 **Dockerfile** of [Debian](https://www.debian.org/) /srv/www/ persistent data volume.
 
 *Requirements*
