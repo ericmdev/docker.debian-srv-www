@@ -26,3 +26,9 @@ VOLUME /srv/www
 # Change ownership /srv/www/ -> www-data.
 #
 RUN chown www-data:www-data /srv/www/
+
+#
+# Configure executable.
+#
+ENTRYPOINT /usr/bin/tail -f /dev/null
+
