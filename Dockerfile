@@ -13,6 +13,11 @@ FROM debian:jessie
 MAINTAINER Eric Mugerwa <dev@ericmugerwa.com>
 
 #
+# Create /srv/www/.
+#
+RUN mkdir -p /srv/www
+
+#
 # Define mountable directories.
 #
 VOLUME /srv/www
