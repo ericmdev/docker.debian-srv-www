@@ -10,9 +10,6 @@
 *Base Docker Image*
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
-*Process*
-- data (/srv/www/)
-
 ### Development
 
     $ docker build -t srv/www -f ./Dockerfile .
