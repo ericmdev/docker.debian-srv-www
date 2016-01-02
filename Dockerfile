@@ -16,3 +16,8 @@ MAINTAINER Eric Mugerwa <dev@ericmugerwa.com>
 # Define mountable directories.
 #
 VOLUME /srv/www
+
+#
+# Change ownership /srv/www/ -> www-data.
+#
+RUN chown www-data:www-data /srv/www/
