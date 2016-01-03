@@ -1,6 +1,6 @@
 ## Dockerfile: Debian - SRV-WWW
 
-[![Build Status](https://travis-ci.org/ericmdev/dockerfile.debian-srv-www.svg?branch=master)](https://travis-ci.org/ericmdev/dockerfile.debian-srv-www)
+[![Build Status](https://travis-ci.org/ericmdev/dockerfile.srv-www.svg?branch=master)](https://travis-ci.org/ericmdev/dockerfile.srv-www)
 
 **Dockerfile** of [Debian](https://www.debian.org/) /srv/www/ persistent data volume.
 
