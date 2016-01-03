@@ -1,0 +1,12 @@
+{
+  "docker": {
+    "build_image": {
+    	":path": "/vagrant",
+    	":args": "-t srv-www"
+    },
+    "run": {
+    	":name": "srv_www",
+    	":image": "srv-www"
+    }
+  }
+}
