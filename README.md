@@ -10,18 +10,17 @@
 *Base Docker Image*
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
+*Docker Pull Command*
+- `docker pull ericmdev/srv-www`
+
 ### Development
 
-    $ docker build -t srv/www -f ./Dockerfile .
+    $ docker build -t srv-www -f ./Dockerfile .
 
-Creates an image with the tag `srv/www`.
+Creates the image `srv-www`.
 
 ### Usage
 
-    $ docker run -d --name=srv_www srv/www
+    $ docker run -d --name=srv_www srv-www
 
 Creates and starts a container with the name `srv_www`.
-
-Access the Bash shell:
-
-    $ docker exec -it srv_www bash
