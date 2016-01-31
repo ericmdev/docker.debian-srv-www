@@ -6,6 +6,5 @@ services:
   - docker
 
 script:
-  - docker build -t srv-www -f ./Dockerfile .
-  - docker run -d --name=srv_www srv-www
-  - docker ps -a
+  - make
+  - make ls-images
